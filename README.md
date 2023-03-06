@@ -5,8 +5,14 @@ https://help.aliyun.com/document_detail/374323.html是具体文档地址
 # 项目开始
 # 1. 安装阿里云语音合成sdk
 cd 项目目录
+git clone https://github.com/aliyun/alibabacloud-nls-python-sdk.git
 cd alibabacloud-nls-python-sdk/ 
 python setup.py install
-
 # 2. 安装项目依赖
 pip install -r requirements.txt
+
+# 3. 配置阿里云参数
+根据需求配置config.yaml文件
+
+# 4. 运行项目
+python lu_recognize.py
