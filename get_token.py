@@ -107,8 +107,8 @@ def get_APPKEY():
 
 def get_token():
     # 用户信息
-    access_key_id = 'LTAIT7eDUfcKRP89'
-    access_key_secret = 'j0t4x1MpqDdqHmOHhIjkT7c4t2y5Ey'
+    access_key_id = get_AKID()
+    access_key_secret = get_AKKEY()
     token, expire_time = AccessToken.create_token(access_key_id, access_key_secret)
     print('token: %s, expire time(s): %s' % (token, expire_time))
     if expire_time:
