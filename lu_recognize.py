@@ -6,7 +6,7 @@ token, _ = get_yaml_token()
 api_key = get_yaml_apikey()   
 import openai
 openai.api_key = api_key
-from revChatGPT.V3 import Chatbot
+from ChatGPT.ChatGPT import Chatbot
 bot = Chatbot(api_key=api_key)
 
 if __name__ == "__main__":
