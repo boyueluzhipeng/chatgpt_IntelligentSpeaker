@@ -1,0 +1,6 @@
+.DS_Store
+config.yaml
+__pycache__
+ChatGPT/__pycache__
+openai-python
+*.log

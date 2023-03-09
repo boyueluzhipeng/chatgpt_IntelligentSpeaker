@@ -1,7 +1,0 @@
-expire_time: 1678117427
-token: ''
-api_key: ''
-AKID: ''     #获取AccessKey ID和AccessKey Secret请前往控制台：https://ram.console.aliyun.com/manage/ak
-AKKEY: ''
-APPKEY: ''   #获取Appkey请前往控制台：https://nls-portal.console.aliyun.com/applist
-URL: wss://nls-gateway.cn-shanghai.aliyuncs.com/ws/v1
