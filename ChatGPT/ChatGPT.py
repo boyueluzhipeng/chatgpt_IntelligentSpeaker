@@ -152,7 +152,7 @@ class Chatbot:
         #     raise Exception(
         #         f"Error: {response.status_code} {response.reason} {response.text}",
         #     )
-        openai.api_key = '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'
+        openai.api_key = self.api_key
         response = openai.ChatCompletion.create(
             model=self.engine,
             messages=self.conversation[convo_id],
